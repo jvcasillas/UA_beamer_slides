@@ -1,0 +1,122 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                                  %%%
+%%% University of Arizona themed Beamer presentation %%%
+%%% Based on the Warsaw, Palo Alto and UNL templates %%%
+%%% modified by Joseph V. Casillas (6-13-2011)       %%%
+%%%                                                  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{beamer}
+\mode<presentation>{\usetheme{UA}\setbeamercovered{transparent}}
+\usepackage[english,spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+
+\usepackage{verbatim}
+\usepackage{media9}
+\usepackage{apacite}
+\usepackage{tipa}
+\usepackage{amssymb}   
+\usepackage{soul}               % \hl{highlight this text}
+\usepackage{graphicx}           % Put .eps and .pdf images into document
+\usepackage{colortbl}
+\usepackage{times}
+\usepackage{url}   				%this allows us to cite URLs in the text
+\usepackage{qtree}
+
+\title{UA themed Beamer presentation}
+
+\author[Casillas]{Joseph Casillas}
+
+\institute{Universidad de Arizona}
+
+\date{\today}
+
+\subject{Linguistics}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}%Página principal
+  \titlepage
+\end{frame}
+
+\begin{frame}
+	\tableofcontents
+\end{frame}
+
+\section{Overview} % (fold)
+\label{sec:overview}
+
+\begin{frame}{Overview}
+	To change the style of the presentation change the ``usetheme'' option en the preamble. \pause
+	\begin{itemize}
+		\item There are 3 options: \pause
+		\begin{itemize}
+			\item UA - Lateral column on the left side (red and blue) 
+			\item UA2 - Bars on the top and bottom (red and blue) 
+			\item UA3 - Bars on the top and bottom (grey, more formal) 
+		\end{itemize} \pause
+		\item You may have to compile the tex file two or three times for all the sections to show up.
+	\end{itemize}
+\end{frame}
+% section overview (end)
+
+
+\section{Installation} % (fold)
+\label{sec:installation}
+
+\begin{frame}{Installation}
+	\begin{itemize}
+		\item You can use the UA theme as long as the .sty files are in the same folder as your presentation.
+		\item If you would like to permanently use the theme, copy the .sty folders into your \LaTeX\ ``texmf'' folder.
+	\end{itemize}
+	On my computer it looks like this: \\
+	\vspace{2.5mm}
+	/Users/{your\_user\_name}/Library/texmf/tex/latex/misc
+\end{frame}
+% section installation (end)
+
+
+\section{Examples} % (fold)
+\label{sec:examples}
+
+\begin{frame}{Examples}
+	\begin{block}{Block example}
+		\begin{description}
+			\item[Label] description \pause
+			\item[Label] description \pause
+			\item[Label] description
+		\end{description}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Asimlación de las nasales}
+	\begin{center}
+		{\scriptsize
+		\renewcommand{\arraystretch}{1.5}
+		\begin{tabular}{@{}|l|l|l|l|l|@{}}
+			\hline
+			Fonema & Alófono & Punto & Ejemplo & \\ 
+			\hline
+			/m/ inicial & [m] + vocal                 & Bilabial       &  Mamá, cama     & \\ 
+			/n/ inicial & [n] + vocal                 & Alveolar       &  Carne, nada    & \\ 
+			/ñ/ inicial & [\textltailn] + vocal       & Palatal        &  Caña, ñoña     & \\ 
+			\hline                                                               
+			            & [m] + /p,b/                 & bilabial       &  “un barco”     & [ú{\bf m.b}ár.ko] \\ 
+			            & [\textltailm] + /f/         & labiodental    &  “en Finlandia” & [e{\bf \textltailm.f}in.lá\textsubbridge{n}.d\textsubarch{i}a] \\ 
+			/N/ final   & [\textsubbridge{n}] + /t,d/ & dental         &  “en Finlandia” & [e\textltailm.fin.lá{\bf \textsubbridge{n}.d}\textsubarch{i}a] \\ 
+			de sílaba   & [n] + /s,l,r/               & alveolar       &  “ansiedad”     & [a{\bf n.s}\textsubarch{i}e.\dh á\dh] \\ 
+			            & [\'n] + /\textteshlig/      & alveopalatal   &  “ancho”        & [á{\bf \'n.\textteshlig} o] \\ 
+			            & [\textltailn] + /j/         & palatal        &  “inyección”    & [i{\bf \textltailn.j} ek.s\textsubarch{i}ón] \\ 
+			            & [\textipa{N}] + /k,g,x/     & velar          &  “tengo”        & [té{\bf \textipa{N}.g}o] \\ 
+			\hline
+		\end{tabular}}
+	\end{center}
+\end{frame}
+% section examples (end)
+
+\end{document}

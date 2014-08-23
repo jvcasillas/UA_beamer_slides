@@ -1,0 +1,129 @@
+\ProvidesPackage{beamerouterthemeUAprogressbar}[2007/06/21]
+
+
+% Beamer theme by Sylvain Bouveret <sylvain[dot]bouveret[aT]cert[DoT]fr>
+% sep. 2010 version 0.42
+%
+% based on the LaTeX-Beamer package :
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\RequirePackage{tikz}
+\usetikzlibrary{arrows}
+
+\makeatletter
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Processing options...
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\def\insertintermediateframenumber{\inserttotalframenumber}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Some color definitions...
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamercolor{progressbar primary}{parent=palette primary}
+\setbeamercolor{progressbar secondary}{parent=palette secondary}
+\setbeamercolor{progressbar tertiary}{parent=palette tertiary}
+\setbeamercolor{progressbar quaternary}{parent=palette quaternary}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Some computations dedicated to the progressbar...
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newdimen\progressbar@currentbarlength
+\newdimen\progressbar@framenumberrectangle
+\newdimen\progressbar@titlerectangle
+\newdimen\progressbar@leftbar
+\newdimen\progressbar@tmpresult
+\newdimen\progressbar@barlength
+
+\newdimen\progressbar@stepbar
+
+\newcount\progressbar@numer
+\newcount\progressbar@denom
+
+\progressbar@framenumberrectangle=13.3cm
+\progressbar@titlerectangle=13.3cm
+
+\progressbar@leftbar=2.15cm
+\progressbar@barlength=11.3cm
+
+\newbox\progressbar@framenumberbox
+
+\newcount\progressbar@firstpb
+\progressbar@firstpb=0
+
+\def\insertprogressbar{
+  \ifnum\insertintermediateframenumber=1\else
+
+    \ifnum\progressbar@firstpb=0
+      \setbox\progressbar@framenumberbox=\hbox{\usebeamerfont{section in head/foot}\color{fg}\inserttotalframenumber~/~\inserttotalframenumber}
+      \newdimen\progressbar@framenumberboxwidth
+      \progressbar@framenumberboxwidth=\wd\progressbar@framenumberbox
+      
+      \global\advance\progressbar@framenumberrectangle by -0.15cm
+      \global\advance\progressbar@framenumberrectangle by -0.5\progressbar@framenumberboxwidth
+      \global\advance\progressbar@titlerectangle by -0.3cm
+      \global\advance\progressbar@titlerectangle by -\progressbar@framenumberboxwidth
+
+      \global\advance\progressbar@barlength by -\progressbar@framenumberboxwidth
+      \global\advance\progressbar@barlength by -0.45cm
+
+      \progressbar@numer=1
+      \progressbar@denom=\insertintermediateframenumber
+      \advance\progressbar@denom by -1
+      \progressbar@tmpresult=\progressbar@barlength
+      \multiply\progressbar@tmpresult by \progressbar@numer
+      \divide\progressbar@tmpresult by \progressbar@denom
+      \global\progressbar@stepbar=\progressbar@tmpresult
+
+      \global\progressbar@currentbarlength=-\progressbar@stepbar
+
+      \global\progressbar@firstpb=1
+    \fi
+
+  
+    \global\progressbar@currentbarlength=\insertframenumber\progressbar@stepbar
+    \global\advance\progressbar@currentbarlength by -\progressbar@stepbar
+    
+    \begin{tikzpicture}[thin]
+      \usebeamercolor{section in head/foot}
+      \useasboundingbox (0, 0) rectangle  (\paperwidth, 0.0cm);
+      \draw (\progressbar@framenumberrectangle, 0.21cm) node [anchor=mid] {\color{fg}\insertframenumber~/~\insertintermediateframenumber};
+      \draw (\progressbar@titlerectangle, 0.21cm) node [anchor=south east] {\color{fg}\insertshorttitle};
+      \draw[fg!30!bg, <->, >=serif cm] (\progressbar@leftbar, 0.21cm) -- (\progressbar@titlerectangle, 0.21cm);
+      \draw (\progressbar@currentbarlength, 0.21cm)
+      ++(\progressbar@leftbar, 0cm) node[anchor=north] {\color{fg!30!bg}$\blacktriangle$};
+    \end{tikzpicture}
+    \fi
+}
+
+  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Footline...
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\defbeamertemplate*{footline}{progressbar theme}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.0mm,dp=0ex]{structure.fg}%
+    \insertprogressbar
+  \end{beamercolorbox}%
+}
+
