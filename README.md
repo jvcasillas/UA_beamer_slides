@@ -1,7 +1,8 @@
 UA beamer slides
 ================
 
-University of Arizona themed beamer slides for presentations in LaTeX.
+University of Arizona themed beamer slides for presentations in LaTeX.  
+Based on the Warsaw, Palo Alto and UNL templates.  
 
 - To change the style of the presentation change the "usetheme" option en the preamble
 - There are 3 options:
