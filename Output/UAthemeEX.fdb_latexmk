@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1408837291 "/Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA themes/UAthemeEX.tex" "Output/UAthemeEX.pdf" "UAthemeEX" 1408837293
-  "/Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA themes/UAthemeEX.tex" 1408837291 4304 6a513c076c1cf69e47695ca9ea59d634 ""
+["pdflatex"] 1408838042 "/Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA_beamer_slides/UAthemeEX.tex" "Output/UAthemeEX.pdf" "UAthemeEX" 1408838043
+  "/Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA_beamer_slides/UAthemeEX.tex" 1408838041 4304 6a513c076c1cf69e47695ca9ea59d634 ""
   "/Users/casillas/Library/texmf/tex/latex/misc/qtree.sty" 1317265411 37840 af733ddbac7a85c7a51356efa3682b6c ""
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -249,12 +249,12 @@
   "/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1401025944 1445653 26a0aacf3d70032b1ec192e8c7792117 ""
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1401025990 3832012 904d82bdcc8abf2b1cd296990b82553b ""
   "/usr/local/texlive/2014/texmf.cnf" 1401025936 577 a59edbde8d3a8c549d0eeaab1739e2ff ""
-  "Output/UAthemeEX.aux" 1408837293 3354 ec8fa39a6056cec46c1aa56acb1074a7 ""
-  "Output/UAthemeEX.nav" 1408837293 1248 ba12c748bedf08c83a42c5d3c4331cbe ""
-  "Output/UAthemeEX.out" 1408837293 133 a1a829912bfd010cd11b2080d2090380 ""
-  "Output/UAthemeEX.toc" 1408837293 203 cdccc6dc3778898629cbdaea5b823cca ""
+  "Output/UAthemeEX.aux" 1408838043 3354 ec8fa39a6056cec46c1aa56acb1074a7 ""
+  "Output/UAthemeEX.nav" 1408838043 1248 ba12c748bedf08c83a42c5d3c4331cbe ""
+  "Output/UAthemeEX.out" 1408838043 133 a1a829912bfd010cd11b2080d2090380 ""
+  "Output/UAthemeEX.toc" 1408838043 203 cdccc6dc3778898629cbdaea5b823cca ""
   "UA.png" 1307614804 18160 f8edbc40acccb995334c8cb8dd79aeab ""
-  "UAthemeEX.tex" 1408837291 4304 6a513c076c1cf69e47695ca9ea59d634 ""
+  "UAthemeEX.tex" 1408838041 4304 6a513c076c1cf69e47695ca9ea59d634 ""
   "beamercolorthemeUA.sty" 1408836777 1337 cd234815c2a43acd04c69606667bc83b ""
   "beamerinnerthemeUA.sty" 1408837274 1014 d3760078a077c207139d72e8c69577c9 ""
   "beamerthemeUA.sty" 1336069799 10639 f7f54d26b721982e917d2e4e5b8575dc ""

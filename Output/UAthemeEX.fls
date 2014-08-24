@@ -1,8 +1,8 @@
-PWD /Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA themes
+PWD /Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA_beamer_slides
 INPUT /usr/local/texlive/2014/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA themes/UAthemeEX.tex
+INPUT /Users/casillas/Dropbox/Public/UofA logos, letterheads y plantillas/UA_beamer_slides/UAthemeEX.tex
 OUTPUT Output/UAthemeEX.log
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/beamer/beamer.cls
