@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 AUG 2014 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 AUG 2014 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -656,34 +656,12 @@ Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
-))) (./beamerthemeUA.sty
-Package: beamerthemeUA 2007/01/28  (rcs-revision 1.11)
-\beamer@sidebarwidth=\dimen188
-\beamer@headheight=\dimen189
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
-emerounded.sty
-Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emestructure.sty
-Package: beamercolorthemestructure 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emeorchid.sty
-Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emewhale.sty
-Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
-eserif.sty
-Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
-) (./beamerinnerthemeUA.sty
-Package: beamerinnerthemeUA 2007/01/28  (rcs-revision 1.5)
-) (./beamercolorthemeUA.sty
-Package: beamercolorthemeUA 2007/01/28  (rcs-revision 1.2)
+))) (./beamerthemeUA3.sty
+Package: beamerthemeUA3 2007/01/28  (rcs-revision 1.2)
+(./beamerouterthemeUAgrey.sty) (./beamerinnerthemeUAgrey.sty
+Package: beamerinnerthemeUAgrey 2007/01/28  (rcs-revision 1.5)
+) (./beamercolorthemeUAgrey.sty
+Package: beamercolorthemeUAgrey 2007/01/28  (rcs-revision 1.2)
 )) (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/03/24 3.9k The Babel package
 (/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
@@ -691,24 +669,16 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count153
-\U@D=\dimen190
+\U@D=\dimen188
 LaTeX Info: Redefining \textlatin on input line 1428.
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2014/04/24 v5.0n Spanish support from the babel system
-\es@quottoks=\toks43
-\es@quotdepth=\count154
-Package babel Info: Making " an active character on input line 516.
-Package babel Info: Making . an active character on input line 617.
-Package babel Info: Making < an active character on input line 662.
-Package babel Info: Making > an active character on input line 662.
 )) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
-\inpenc@prehook=\toks44
-\inpenc@posthook=\toks45
+\inpenc@prehook=\toks43
+\inpenc@posthook=\toks44
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -923,8 +893,8 @@ Now handling font encoding PD1 ...
 Package: t1enc 1994/06/01 Standard LaTeX package
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks46
-\verbatim@line=\toks47
+\every@verbatim=\toks45
+\verbatim@line=\toks46
 \verbatim@in@stream=\read2
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/media9/media9.sty (/usr/local/t
 exlive/2014/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -934,7 +904,7 @@ Package: expl3 2014/05/20 v4814 L3 programming layer (code)
 L3 Module: l3bootstrap 2014/05/16 v4782 L3 Bootstrap code
 (/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count155
+\et@xins=\count154
 )
 L3 Module: l3names 2014/05/04 v4728 L3 Namespace for primitives
 L3 Module: l3basics 2014/05/04 v4728 L3 Basic definitions
@@ -942,31 +912,31 @@ L3 Module: l3expan 2014/04/30 v4712 L3 Argument expansion
 L3 Module: l3tl 2014/05/04 v4728 L3 Token lists
 L3 Module: l3seq 2014/04/30 v4712 L3 Sequences and stacks
 L3 Module: l3int 2014/05/16 v4776 L3 Integers
-\c_max_int=\count156
-\l_tmpa_int=\count157
-\l_tmpb_int=\count158
-\g_tmpa_int=\count159
-\g_tmpb_int=\count160
+\c_max_int=\count155
+\l_tmpa_int=\count156
+\l_tmpb_int=\count157
+\g_tmpa_int=\count158
+\g_tmpb_int=\count159
 L3 Module: l3quark 2014/05/04 v4728 L3 Quarks
 L3 Module: l3prg 2014/05/04 v4728 L3 Control structures
-\g__prg_map_int=\count161
+\g__prg_map_int=\count160
 L3 Module: l3clist 2014/05/04 v4728 L3 Comma separated lists
 L3 Module: l3token 2014/05/04 v4728 L3 Experimental token manipulation
 L3 Module: l3prop 2014/04/30 v4712 L3 Property lists
 L3 Module: l3msg 2014/05/04 v4728 L3 Messages
 L3 Module: l3file 2014/05/05 v4737 L3 File and I/O operations
-\l_iow_line_count_int=\count162
-\l__iow_target_count_int=\count163
-\l__iow_current_line_int=\count164
-\l__iow_current_word_int=\count165
-\l__iow_current_indentation_int=\count166
+\l_iow_line_count_int=\count161
+\l__iow_target_count_int=\count162
+\l__iow_current_line_int=\count163
+\l__iow_current_word_int=\count164
+\l__iow_current_indentation_int=\count165
 L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
-\c_zero_dim=\dimen191
-\c_max_dim=\dimen192
-\l_tmpa_dim=\dimen193
-\l_tmpb_dim=\dimen194
-\g_tmpa_dim=\dimen195
-\g_tmpb_dim=\dimen196
+\c_zero_dim=\dimen189
+\c_max_dim=\dimen190
+\l_tmpa_dim=\dimen191
+\l_tmpb_dim=\dimen192
+\g_tmpa_dim=\dimen193
+\g_tmpb_dim=\dimen194
 \c_zero_skip=\skip57
 \c_max_skip=\skip58
 \l_tmpa_skip=\skip59
@@ -980,18 +950,18 @@ L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2014/05/08 v4753 L3 Key-value interfaces
-\g__keyval_level_int=\count167
-\l_keys_choice_int=\count168
+\g__keyval_level_int=\count166
+\l_keys_choice_int=\count167
 L3 Module: l3fp 2014/04/30 v4712 L3 Floating points
-\c__fp_leading_shift_int=\count169
-\c__fp_middle_shift_int=\count170
-\c__fp_trailing_shift_int=\count171
-\c__fp_big_leading_shift_int=\count172
-\c__fp_big_middle_shift_int=\count173
-\c__fp_big_trailing_shift_int=\count174
-\c__fp_Bigg_leading_shift_int=\count175
-\c__fp_Bigg_middle_shift_int=\count176
-\c__fp_Bigg_trailing_shift_int=\count177
+\c__fp_leading_shift_int=\count168
+\c__fp_middle_shift_int=\count169
+\c__fp_trailing_shift_int=\count170
+\c__fp_big_leading_shift_int=\count171
+\c__fp_big_middle_shift_int=\count172
+\c__fp_big_trailing_shift_int=\count173
+\c__fp_Bigg_leading_shift_int=\count174
+\c__fp_Bigg_middle_shift_int=\count175
+\c__fp_Bigg_trailing_shift_int=\count176
 L3 Module: l3box 2014/05/04 v4728 L3 Experimental boxes
 \c_empty_box=\box53
 \l_tmpa_box=\box54
@@ -1000,14 +970,13 @@ L3 Module: l3box 2014/05/04 v4728 L3 Experimental boxes
 \g_tmpb_box=\box57
 L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
 \l__coffin_internal_box=\box58
-\l__coffin_internal_dim=\dimen197
-\l__coffin_offset_x_dim=\dimen198
-\l__coffin_offset_y_dim=\dimen199
-\l__coffin_x_dim=\dimen200
-\l__coffin_y_dim=\dimen201
-Normal \dimen register pool exhausted, switching to extended pool.
-\l__coffin_x_prime_dim=\dimen256
-\l__coffin_y_prime_dim=\dimen257
+\l__coffin_internal_dim=\dimen195
+\l__coffin_offset_x_dim=\dimen196
+\l__coffin_offset_y_dim=\dimen197
+\l__coffin_x_dim=\dimen198
+\l__coffin_y_dim=\dimen199
+\l__coffin_x_prime_dim=\dimen200
+\l__coffin_y_prime_dim=\dimen201
 \c_empty_coffin=\box59
 \l__coffin_aligned_coffin=\box60
 \l__coffin_aligned_internal_coffin=\box61
@@ -1016,30 +985,31 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \l__coffin_display_coffin=\box64
 \l__coffin_display_coord_coffin=\box65
 \l__coffin_display_pole_coffin=\box66
-\l__coffin_display_offset_dim=\dimen258
-\l__coffin_display_x_dim=\dimen259
-\l__coffin_display_y_dim=\dimen260
+Normal \dimen register pool exhausted, switching to extended pool.
+\l__coffin_display_offset_dim=\dimen256
+\l__coffin_display_x_dim=\dimen257
+\l__coffin_display_y_dim=\dimen258
 L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
 L3 Module: l3luatex 2014/04/30 v4712 L3 Experimental LuaTeX-specific functions
-\g__cctab_allocate_int=\count178
-\g__cctab_stack_int=\count179
+\g__cctab_allocate_int=\count177
+\g__cctab_stack_int=\count178
 L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen261
-\l__box_bottom_dim=\dimen262
-\l__box_left_dim=\dimen263
-\l__box_right_dim=\dimen264
-\l__box_top_new_dim=\dimen265
-\l__box_bottom_new_dim=\dimen266
-\l__box_left_new_dim=\dimen267
-\l__box_right_new_dim=\dimen268
+\l__box_top_dim=\dimen259
+\l__box_bottom_dim=\dimen260
+\l__box_left_dim=\dimen261
+\l__box_right_dim=\dimen262
+\l__box_top_new_dim=\dimen263
+\l__box_bottom_new_dim=\dimen264
+\l__box_left_new_dim=\dimen265
+\l__box_right_new_dim=\dimen266
 \l__box_internal_box=\box67
-\l__coffin_bounding_shift_dim=\dimen269
-\l__coffin_left_corner_dim=\dimen270
-\l__coffin_right_corner_dim=\dimen271
-\l__coffin_bottom_corner_dim=\dimen272
-\l__coffin_top_corner_dim=\dimen273
-\l__coffin_scaled_total_height_dim=\dimen274
-\l__coffin_scaled_width_dim=\dimen275
+\l__coffin_bounding_shift_dim=\dimen267
+\l__coffin_left_corner_dim=\dimen268
+\l__coffin_right_corner_dim=\dimen269
+\l__coffin_bottom_corner_dim=\dimen270
+\l__coffin_top_corner_dim=\dimen271
+\l__coffin_scaled_total_height_dim=\dimen272
+\l__coffin_scaled_width_dim=\dimen273
 )) (/usr/local/texlive/2014/texmf-dist/tex/latex/l3experimental/l3str/l3regex.s
 ty
 Package: l3regex 2013/12/14 v4623 L3 Experimental regular expressions
@@ -1047,8 +1017,8 @@ Package: l3regex 2013/12/14 v4623 L3 Experimental regular expressions
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.s
 ty
 Package: l3tl-build 2011/12/08 v3039 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count180
-\l__tl_build_index_int=\count181
+\l__tl_build_start_index_int=\count179
+\l__tl_build_index_int=\count180
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysi
 s.sty
@@ -1056,10 +1026,10 @@ Package: l3tl-analysis 2011/12/08 v3039 L3 Experimental token lists analysis
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3experimental/l3str/l3str.sty
 Package: l3str 2014/05/04 v4728 L3 Experimental strings
 )
-\l__tl_analysis_normal_int=\count182
-\l__tl_analysis_index_int=\count183
-\l__tl_analysis_nesting_int=\count184
-\l__tl_analysis_type_int=\count185
+\l__tl_analysis_normal_int=\count181
+\l__tl_analysis_index_int=\count182
+\l__tl_analysis_nesting_int=\count183
+\l__tl_analysis_type_int=\count184
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2011/12/08 v3039 L3 Experimental flags
 )
@@ -1067,57 +1037,57 @@ Package: l3flag 2011/12/08 v3039 L3 Experimental flags
 t.sty
 Package: l3str-convert 2013/01/08 v4339 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count186
-\c__str_replacement_char_int=\count187
+\l__str_internal_int=\count185
+\c__str_replacement_char_int=\count186
 )
-\l__regex_internal_a_int=\count188
-\l__regex_internal_b_int=\count189
-\l__regex_internal_c_int=\count190
-\l__regex_balance_int=\count191
-\l__regex_group_level_int=\count192
-\l__regex_mode_int=\count193
-\l__regex_catcodes_int=\count194
-\l__regex_default_catcodes_int=\count195
-\c__regex_catcode_D_int=\count196
-\c__regex_catcode_S_int=\count197
-\c__regex_catcode_L_int=\count198
-\c__regex_catcode_O_int=\count199
-\c__regex_catcode_A_int=\count200
-\c__regex_all_catcodes_int=\count201
+\l__regex_internal_a_int=\count187
+\l__regex_internal_b_int=\count188
+\l__regex_internal_c_int=\count189
+\l__regex_balance_int=\count190
+\l__regex_group_level_int=\count191
+\l__regex_mode_int=\count192
+\l__regex_catcodes_int=\count193
+\l__regex_default_catcodes_int=\count194
+\c__regex_catcode_D_int=\count195
+\c__regex_catcode_S_int=\count196
+\c__regex_catcode_L_int=\count197
+\c__regex_catcode_O_int=\count198
+\c__regex_catcode_A_int=\count199
+\c__regex_all_catcodes_int=\count200
+\l__regex_show_lines_int=\count201
 Normal \count register pool exhausted, switching to extended pool.
-\l__regex_show_lines_int=\count277
-\l__regex_min_state_int=\count278
-\l__regex_max_state_int=\count279
-\l__regex_left_state_int=\count280
-\l__regex_right_state_int=\count281
-\l__regex_capturing_group_int=\count282
-\l__regex_min_pos_int=\count283
-\l__regex_max_pos_int=\count284
-\l__regex_current_pos_int=\count285
-\l__regex_start_pos_int=\count286
-\l__regex_success_pos_int=\count287
-\l__regex_current_char_int=\count288
-\l__regex_current_catcode_int=\count289
-\l__regex_last_char_int=\count290
-\l__regex_case_changed_char_int=\count291
-\l__regex_current_state_int=\count292
-\l__regex_step_int=\count293
-\l__regex_min_active_int=\count294
-\l__regex_max_active_int=\count295
-\l__regex_replacement_csnames_int=\count296
-\l__regex_match_count_int=\count297
-\l__regex_submatch_int=\count298
-\l__regex_zeroth_submatch_int=\count299
+\l__regex_min_state_int=\count277
+\l__regex_max_state_int=\count278
+\l__regex_left_state_int=\count279
+\l__regex_right_state_int=\count280
+\l__regex_capturing_group_int=\count281
+\l__regex_min_pos_int=\count282
+\l__regex_max_pos_int=\count283
+\l__regex_current_pos_int=\count284
+\l__regex_start_pos_int=\count285
+\l__regex_success_pos_int=\count286
+\l__regex_current_char_int=\count287
+\l__regex_current_catcode_int=\count288
+\l__regex_last_char_int=\count289
+\l__regex_case_changed_char_int=\count290
+\l__regex_current_state_int=\count291
+\l__regex_step_int=\count292
+\l__regex_min_active_int=\count293
+\l__regex_max_active_int=\count294
+\l__regex_replacement_csnames_int=\count295
+\l__regex_match_count_int=\count296
+\l__regex_submatch_int=\count297
+\l__regex_zeroth_submatch_int=\count298
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.st
 y
 Package: l3keys2e 2014/05/05 v4740 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count300
-\l__xparse_m_args_int=\count301
-\l__xparse_mandatory_args_int=\count302
-\l__xparse_processor_int=\count303
-\l__xparse_v_nesting_int=\count304
+\l__xparse_current_arg_int=\count299
+\l__xparse_m_args_int=\count300
+\l__xparse_mandatory_args_int=\count301
+\l__xparse_processor_int=\count302
+\l__xparse_v_nesting_int=\count303
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/atenddvi.sty
 Package: atenddvi 2007/04/17 v1.1 At end DVI hook (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
@@ -1128,7 +1098,7 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count305
+\c@abspage=\count304
 Package zref Info: New property: abspage on input line 62.
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/zref-lastpage.sty
 Package: zref-lastpage 2012/04/04 v2.24 Module lastpage for zref (HO)
@@ -1149,8 +1119,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen276
-\pgf@nodesepend=\dimen277
+\pgf@nodesepstart=\dimen274
+\pgf@nodesepend=\dimen275
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1163,10 +1133,10 @@ l/texlive/2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/20
 texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen278
-\pgffor@skip=\dimen279
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@iter=\dimen276
+\pgffor@skip=\dimen277
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1175,32 +1145,32 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count306
-\pgfplotmarksize=\dimen280
+\pgf@plot@mark@count=\count305
+\pgfplotmarksize=\dimen278
 )
-\tikz@lastx=\dimen281
-\tikz@lasty=\dimen282
-\tikz@lastxsaved=\dimen283
-\tikz@lastysaved=\dimen284
-\tikzleveldistance=\dimen285
-\tikzsiblingdistance=\dimen286
+\tikz@lastx=\dimen279
+\tikz@lasty=\dimen280
+\tikz@lastxsaved=\dimen281
+\tikz@lastysaved=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
 \tikz@figbox=\box69
 \tikz@figbox@bg=\box70
 \tikz@tempbox=\box71
 \tikz@tempbox@bg=\box72
-\tikztreelevel=\count307
-\tikznumberofchildren=\count308
-\tikznumberofcurrentchild=\count309
-\tikz@fig@count=\count310
+\tikztreelevel=\count306
+\tikznumberofchildren=\count307
+\tikznumberofcurrentchild=\count308
+\tikz@fig@count=\count309
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count311
-\pgfmatrixcurrentcolumn=\count312
-\pgf@matrix@numberofcolumns=\count313
+\pgfmatrixcurrentrow=\count310
+\pgfmatrixcurrentcolumn=\count311
+\pgf@matrix@numberofcolumns=\count312
 )
-\tikz@expandcount=\count314
+\tikz@expandcount=\count313
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1208,14 +1178,14 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
 Package: media9 2014/03/25 v0.43 acrobat-9/X compatible media
 \l_mix_poster_box=\box73
-\g_mix_wd_dim=\dimen287
-\g_mix_ht_dim=\dimen288
-\g_mix_dp_dim=\dimen289
-\g_mix_rmcnt_int=\count315
-\l_mix_viewcnt_int=\count316
-\g@mix@page@int=\count317
-\g_mix_resizeflag_int=\count318
-\l_mix_lineno_int=\count319
+\g_mix_wd_dim=\dimen285
+\g_mix_ht_dim=\dimen286
+\g_mix_dp_dim=\dimen287
+\g_mix_rmcnt_int=\count314
+\l_mix_viewcnt_int=\count315
+\g@mix@page@int=\count316
+\g_mix_resizeflag_int=\count317
+\l_mix_lineno_int=\count318
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1228,7 +1198,7 @@ Package: media9 2014/03/25 v0.43 acrobat-9/X compatible media
 . Defining document command \includemedia with arg. spec. 'O{}mm' on line
 . 1568.
 .................................................
-\g_mix_mbtncnt_int=\count320
+\g_mix_mbtncnt_int=\count319
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1236,7 +1206,7 @@ Package: media9 2014/03/25 v0.43 acrobat-9/X compatible media
 .................................................
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count321
+\c@BibCnt=\count320
 \bibleftmargin=\skip63
 \bibindent=\skip64
 \bibparsep=\skip65
@@ -1255,26 +1225,26 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))) (/usr/local/texlive/2014/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks50
-\SOUL@lasttoken=\toks51
-\SOUL@cmds=\toks52
-\SOUL@buffer=\toks53
-\SOUL@token=\toks54
+\SOUL@word=\toks49
+\SOUL@lasttoken=\toks50
+\SOUL@cmds=\toks51
+\SOUL@buffer=\toks52
+\SOUL@token=\toks53
 \SOUL@spaceskip=\skip68
-\SOUL@ttwidth=\dimen290
-\SOUL@uldp=\dimen291
-\SOUL@ulht=\dimen292
+\SOUL@ttwidth=\dimen288
+\SOUL@uldp=\dimen289
+\SOUL@ulht=\dimen290
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen293
-\extrarowheight=\dimen294
-\NC@list=\toks55
+\col@sep=\dimen291
+\extrarowheight=\dimen292
+\NC@list=\toks54
 \extratabsurround=\skip69
 \backup@length=\skip70
 )
-\everycr=\toks56
+\everycr=\toks55
 \minrowclearance=\skip71
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
@@ -1291,13 +1261,13 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks57
-\@arclen=\dimen295
-\@arcrad=\dimen296
-\@tempdimd=\dimen297
+\pIIe@GRAPH=\toks56
+\@arclen=\dimen293
+\@arcrad=\dimen294
+\@tempdimd=\dimen295
 )
-\c@treecount=\count322
-\c@branchcount=\count323
+\c@treecount=\count321
+\c@branchcount=\count322
 \parentbox=\box75
 \treebox=\box76
 \treeboxone=\box77
@@ -1394,16 +1364,13 @@ File: p2e-pdftex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
 \branchwidth=\skip143
 \parentwidth=\skip144
 \treewidth=\skip145
-\qta=\toks58
-\qtb=\toks59
-\nbranches=\count324
-\qroofx=\count325
-\qroofy=\count326
+\qta=\toks57
+\qtb=\toks58
+\nbranches=\count323
+\qroofx=\count324
+\qroofy=\count325
 \@qrscratchbox=\box97
-) (Output/UAthemeEX.aux
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
-)
+) (Output/UAthemeEX.aux)
 \openout1 = `UAthemeEX.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -1438,14 +1405,14 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(64.62642pt, 285.34258pt, 14.22636pt)
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=285.34258pt
+* \textwidth=342.2953pt
 * \textheight=244.6939pt
-* \oddsidemargin=-7.64357pt
-* \evensidemargin=-7.64357pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1466,17 +1433,17 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
-\scratchdimen=\dimen298
+\scratchcounter=\count326
+\scratchdimen=\dimen296
 \scratchbox=\box98
-\nofMPsegments=\count328
-\nofMParguments=\count329
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count330
-\MPscratchDim=\dimen299
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
-\everyMPtoPDFconversion=\toks61
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen297
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks60
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1497,7 +1464,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count333
+\c@section@level=\count332
 )
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
@@ -1506,15 +1473,19 @@ LaTeX Info: Redefining \nameref on input line 39.
 \@outlinefile=\write5
 \openout5 = `UAthemeEX.out'.
 
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 39.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 39.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/ptm/m/n on input line 39.
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 39.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/ptm/bx/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/ptm/bx/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 39.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 39.
@@ -1522,26 +1493,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 39.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/ptm/m/it on input line 39.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/ptm/m/it on input line 39.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 39.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/ptm/m/n --> T1/ptm/bx/n on input line 39.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/ptm/m/it --> T1/ptm/bx/it on input line 39.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/ptm/bx/n on input line 39.
+(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/ptm/bx/n --> T1/ptm/bx/n on input line 39.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/ptm/m/it --> T1/ptm/bx/it on input line 39.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 39.
 
@@ -1570,93 +1541,55 @@ r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 39.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
-\c@maskedRefs=\count334
-(/usr/local/texlive/2014/texmf-dist/tex/latex/apacite/spanish.apc
-File: spanish.apc 2013/07/21 v6.03 apacite language file
-LaTeX Info: Redefining \BPBI on input line 138.
-LaTeX Info: Redefining \BHBI on input line 139.
-) (Output/UAthemeEX.nav) <UA.png, id=37, 527.9725pt x 156.585pt>
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 39.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
+\c@maskedRefs=\count333
+(/usr/local/texlive/2014/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+) (Output/UAthemeEX.nav)
+Overfull \hbox (3.63992pt too wide) in paragraph at lines 39--39
 [][]  
  []
 
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 45.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
 
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
-[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1
 
- <./UA.png>] (Output/UAthemeEX.toc
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-)
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 49.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./UA.pn
+g>] (Output/UAthemeEX.toc)
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [2
 
 ]
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 65.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [3
 
 ]
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 65.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [4
 
 ]
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 65.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [5
 
 ]
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 65.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [6
@@ -1670,71 +1603,52 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 80.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 80.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 80.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 80.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 80.
 
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [7
 
 ]
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 95.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [8
 
 ]
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 95.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [9
 
 ]
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 95.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
-
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 [10
 
 ]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 119.
 LaTeX Font Info:    Try loading font information for T3+phv on input line 119.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3phv.fd
 File: t3phv.fd 2001/12/31 scalable TIPA font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 119.
-File: UA.png Graphic file (type png)
-<use UA.png>
-Package pdftex.def Info: UA.png used on input line 119.
-(pdftex.def)             Requested size: 47.96661pt x 14.22636pt.
 
-Overfull \hbox (56.40005pt too wide) has occurred while \output is active
-[] [][] 
+Overfull \hbox (3.63992pt too wide) has occurred while \output is active
+[][] 
  []
 
 Package atenddvi Info: Last page = 11.
@@ -1752,10 +1666,7 @@ Package atenddvi Info: Last page = 11.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 122.
-(Output/UAthemeEX.aux
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
-)
+(Output/UAthemeEX.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `UAthemeEX.out' has not changed.
@@ -1763,22 +1674,22 @@ Package rerunfilecheck Info: File `UAthemeEX.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 30082 strings out of 493117
- 590952 string characters out of 6135433
- 652093 words of memory out of 5000000
- 32893 multiletter control sequences out of 15000+600000
- 47227 words of font info for 65 fonts, out of 8000000 for 9000
+ 29524 strings out of 493117
+ 580566 string characters out of 6135433
+ 641577 words of memory out of 5000000
+ 32354 multiletter control sequences out of 15000+600000
+ 41002 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,20n,63p,10457b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,16n,63p,10457b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/tipa/xipasb10.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/tipa/xipass10.pfb>
-Output written on Output/UAthemeEX.pdf (11 pages, 56823 bytes).
+Output written on Output/UAthemeEX.pdf (11 pages, 53811 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+ 151 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

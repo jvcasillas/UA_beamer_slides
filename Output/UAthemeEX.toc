@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.33pt}
-\select@language {spanish}
+\select@language {english}
 \beamer@sectionintoc {1}{Overview}{3}{0}{1}
 \beamer@sectionintoc {2}{Installation}{7}{0}{2}
 \beamer@sectionintoc {3}{Examples}{8}{0}{3}
